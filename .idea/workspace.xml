@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea92055e-0676-4e0d-87f4-24b3219afeb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sql-exercises.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL Foundations/Getting started.py" afterDir="false" />
+    <list default="true" id="ea92055e-0676-4e0d-87f4-24b3219afeb3" name="Changes" comment="Exercises using sqlalchemy to connect to sqlite db. Exercise involving: &#10;- handling of SELECT query and handling the return of the SELECT request&#10;- SQL injection problem using escaping">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;El-Mago01&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/El-Mago01/SQL-exercises&quot;,
+    &quot;accountId&quot;: &quot;6a1f5c08-fc7e-4dd7-9ef4-9d1afbca28ed&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -43,6 +50,10 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Getting started.executor": "Run",
+    "Python.SQL_injection_escape.executor": "Run",
+    "Python.SQL_injection_escape_title.executor": "Run",
+    "Python.SQL_injection_escape_year.executor": "Run",
+    "Python.demo with sqlalchemy.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -52,6 +63,7 @@
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/marti/PycharmProjects/sql-exercises/SQL Foundations/Python demo from MSIT",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -61,10 +73,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marti\PycharmProjects\sql-exercises\SQL Foundations\Python demo from MSIT" />
+      <recent name="C:\Users\marti\PycharmProjects\sql-exercises\SQL Foundations\Python demo from MSIT\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marti\PycharmProjects\sql-exercises\SQL Foundations\Python demo from MSIT\data" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
         <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
       </set>
     </attachedChunks>
@@ -77,13 +97,48 @@
       <option name="presentableId" value="Default" />
       <updated>1775390768116</updated>
       <workItem from="1775390769129" duration="10819000" />
+      <workItem from="1775473106807" duration="120000" />
+      <workItem from="1775512029893" duration="25000" />
+      <workItem from="1775512064759" duration="33000" />
+      <workItem from="1775636409886" duration="11384000" />
     </task>
+    <task id="LOCAL-00001" summary="Exercises working with SQLite. the exercises are based on this video:&#10;https://youtu.be/tXJtY51xHq8?si=FnTO_19PSDt3Mn78&#10;&#10;Learning implementation in python of:&#10;1. Creating a new SQLite DB&#10;2. Creating a new table in the DB with primary Key and unique indicators&#10;3. Inserting a new entry in the table&#10;4. Deleting entries&#10;5. Updating an entry&#10;6. Searching for ID, based on name&#10;7. Continuous keyboard input loop">
+      <option name="closed" value="true" />
+      <created>1775473194378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775473194378</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Exercises working with SQLite. the exercises are based on this video:&#10;https://youtu.be/tXJtY51xHq8?si=FnTO_19PSDt3Mn78&#10;&#10;Learning implementation in python of:&#10;1. Creating a new SQLite DB&#10;2. Creating a new table in the DB with primary Key and unique indicators&#10;3. Inserting a new entry in the table&#10;4. Deleting entries&#10;5. Updating an entry&#10;6. Searching for ID, based on name&#10;7. Continuous keyboard input loop">
+      <option name="closed" value="true" />
+      <created>1775473219333</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775473219333</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exercises using sqlalchemy to connect to sqlite db. Exercise involving: &#10;- handling of SELECT query and handling the return of the SELECT request&#10;- SQL injection problem using escaping">
+      <option name="closed" value="true" />
+      <created>1776326592633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1776326592633</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercises working with SQLite. the exercises are based on this video:&#10;https://youtu.be/tXJtY51xHq8?si=FnTO_19PSDt3Mn78&#10;&#10;Learning implementation in python of:&#10;1. Creating a new SQLite DB&#10;2. Creating a new table in the DB with primary Key and unique indicators&#10;3. Inserting a new entry in the table&#10;4. Deleting entries&#10;5. Updating an entry&#10;6. Searching for ID, based on name&#10;7. Continuous keyboard input loop" />
+    <MESSAGE value="Exercises using sqlalchemy to connect to sqlite db. Exercise involving: &#10;- handling of SELECT query and handling the return of the SELECT request&#10;- SQL injection problem using escaping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercises using sqlalchemy to connect to sqlite db. Exercise involving: &#10;- handling of SELECT query and handling the return of the SELECT request&#10;- SQL injection problem using escaping" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sql_exercises$Getting_started.coverage" NAME="Getting started Coverage Results" MODIFIED="1775406247895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SQL Foundations" />
+    <SUITE FILE_PATH="coverage/sql_exercises$demo_with_sqlalchemy.coverage" NAME="demo with sqlalchemy Coverage Results" MODIFIED="1775642122945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SQL Foundations/Python demo from MSIT" />
   </component>
 </project>
